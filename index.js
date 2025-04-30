@@ -22,9 +22,9 @@ let reports = [
 ];
 
 // Home
-app.get('/', (req, res) => {
-  res.send('Budget Tracker App is running!');
-});
+// app.get('/', (req, res) => {
+//   res.send('Budget Tracker App is running!');
+// });
 
 // --- Income ---
 app.get('/income', (req, res) => {
